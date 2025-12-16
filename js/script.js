@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (mobileToggle) {
     mobileToggle.addEventListener('click', () => {
       navLinks.classList.toggle('active');
+      mobileToggle.classList.toggle('active'); // Animate button
     });
   }
 
