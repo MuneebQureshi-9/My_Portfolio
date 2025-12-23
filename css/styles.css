@@ -585,6 +585,61 @@ a {
   border-color: #fff;
 }
 
+/* LinkedIn Styles */
+.hero-btns {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* Adjusted for spacing */
+}
+
+.hero-secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  color: var(--text-primary);
+  transition: all 0.2s;
+  background: transparent;
+}
+
+.hero-secondary-btn:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s;
+  width: fit-content;
+}
+
+.linkedin-link:hover {
+  background: rgba(10, 102, 194, 0.15);
+  border-color: #0A66C2;
+}
+
+.linkedin-link small {
+  color: var(--text-tertiary);
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .whatsapp-link {
   display: inline-flex;
   align-items: center;
